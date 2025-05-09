@@ -21,6 +21,6 @@ services:
   recharge:
     image: uprightnalance/payrecharge:latest
     ports:
-      - "84:80"
+      - "85:80"
     deploy:
       replicas: 3
