@@ -1,0 +1,15 @@
+
+services:
+  movies:
+    image: uprightbalance/movies:latest
+    ports:
+      - "81:80"
+  train:
+    image: uprightbalance/train:latest
+    ports:
+      - "82:80"
+  netflix:
+    image: netflix:v1
+    ports:
+      - "83:80"
+  
